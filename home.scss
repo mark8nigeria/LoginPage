@@ -1,0 +1,159 @@
+// body {
+//   background-color: #f6f6f6;
+// }
+
+.nav-bar {
+  display: flex;
+  background-color: #fff;
+  justify-content: space-between;
+  h3 {
+    margin-left: 234px;
+    font-size: 20px;
+    color: #d97791;
+  }
+  nav {
+    display: flex;
+  }
+  ul {
+    display: flex;
+    color: #afafaf;
+    margin-right: 300px;
+    list-style: none;
+  }
+  li {
+    padding: 0px 30px 0px 30px;
+  }
+  .first-btn {
+    background: #d97791;
+    width: 9rem;
+    border: none;
+    border-radius: 10px;
+    height: 2.25rem;
+    margin-right: 3rem;
+    box-shadow:  0px 10px 20px 0px #D97791BA;
+    ;
+  }
+}
+
+// .parent-div {
+// display: flex;
+//   width: 61rem;
+//   height: 37.25rem;
+//   background-color: white;
+//   margin-top: 6.6rem;
+//   margin-left: 600px;
+//   .first-div {
+//     display: flex;
+//     .first-div-list {
+//       display: flex;
+//       list-style: none;
+//       margin-left: 294px;
+      
+//       li{
+//         padding:0px 10px 0px 10px ;
+//         margin-top: 48px;
+//       }
+//       .first-div-list12{
+//         color: #d97791;
+//     }
+//   }
+
+    
+
+//     .second-logo{
+//         color: #d97791;
+//         margin-left: 48px;
+//         margin-top: 53px;
+//     }
+//     h1{
+//         color:  #535353;
+//         font-size: 27px;
+//         margin-top: 141px;
+//     }
+//     .signup-h2{
+//       color: #AFAFAF;
+//     }
+   
+//   }
+
+//   .second-div {
+//     width: 32rem;
+//     height: 37.5rem;
+//     background-color: #d97791;
+//     margin-right: 10px;
+//     
+    
+    
+//   }
+// }
+
+body{
+  background-color: #F6F6F6;
+  
+}
+
+
+  .parent-div{
+    display: flex;
+    
+    width: 50%;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-top: 90px;
+
+    .first-div {
+      flex: 1;
+      padding: 30px;
+
+        .sec{
+          display: flex;
+          align-items: center;
+        }
+        .first-div-list1{
+          padding-left: 10px;
+        }
+      .left-input {
+        display: flex;
+        flex-direction: column;
+
+        input{
+          margin: 10px;
+          border: none;
+          border-bottom: 2px solid black;
+          padding: 10px;
+          width: 20%;
+          
+            color: #D97791;
+        
+        }
+      }
+      .second-logo{
+        color:#D97791 ;
+        padding-right: 200px;
+      }
+      .first-div-list{
+        display: flex;
+        list-style: none;
+      
+      }
+      .last-btn{
+        margin-top: 50px;
+        .last-btn1{
+          background-color: #d97791;
+          border-style: none;
+         
+          width: 317px;
+          height: 51px;
+          border-radius: 20px;
+          box-shadow:  0px 10px 20px 0px #D97791BA;
+        }
+      }
+
+    }
+
+    .second-div{
+      flex: 1;
+      background-color: #D97791;
+      box-shadow:  0px 10px 20px 0px #D97791BA;
+    }
+  }
